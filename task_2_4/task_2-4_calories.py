@@ -1,0 +1,5 @@
+protein = input("масса белков в продукте(г): ")
+lip = input("масса жиров в продукте(г): ")
+sugar = input("масса углеводов в продукте(г): ")
+result = (float(protein)*4)+(float(lip)*9)+(float(sugar)*4)
+print(f"Калорийность {result}")
