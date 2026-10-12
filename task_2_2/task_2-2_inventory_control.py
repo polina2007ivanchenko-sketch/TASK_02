@@ -1,0 +1,5 @@
+new_reactive =input("введите новый реактив: ")
+kol_reactive =int(input("введите количество реактива: "))
+f=open("inventory.txt","w",encoding="utf-8")
+print(f"Реактив {new_reactive.upper()} поступил на склад в количестве {kol_reactive} шт.", file=f)
+f.close()
