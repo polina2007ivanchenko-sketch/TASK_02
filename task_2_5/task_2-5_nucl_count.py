@@ -1,0 +1,7 @@
+print("=== Анализ последовательности ДНК ===")
+dna = input('Enter DNA sequence: ')
+dna=dna.upper()
+print(f"A:\t {dna.count("A")}\t {len(dna)}\t {int(dna.count("A")*100/len(dna))}")
+print(f"G:\t {dna.count("G")}\t {len(dna)}\t {int(dna.count("G")*100/len(dna))}")
+print(f"C:\t {dna.count("C")}\t {len(dna)}\t {int(dna.count("C")*100/len(dna))}")
+print(f"T:\t {dna.count("T")}\t {len(dna)}\t {int(dna.count("T")*100/len(dna))}")
